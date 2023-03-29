@@ -221,7 +221,6 @@ body {
 .main-section footer {
   width: 35%;
   height: 12%;
-  position: fixed;
   bottom: 2%;
   display: flex;
   align-content: center;
