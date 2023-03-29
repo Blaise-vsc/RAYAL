@@ -398,7 +398,7 @@
     }
     footer {
       height: 10%;
-      position: none;
+      position: absolute;
       .footer-b {
         .b-nav-left {
           h2 {
@@ -414,7 +414,7 @@
       }
     }
     .down-div-in {
-      height: 70%;
+      height: 60%;
       flex-direction: column;
       //
 

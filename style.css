@@ -383,7 +383,7 @@ body {
 @media (max-width: 480px) {
   .main-section footer {
     height: 10%;
-    position: none;
+    position: absolute;
   }
   .main-section footer .footer-b .b-nav-left h2 {
     font-size: 17px;
@@ -393,7 +393,7 @@ body {
     font-size: 15px;
   }
   .main-section .down-div-in {
-    height: 70%;
+    height: 60%;
     flex-direction: column;
   }
   .main-section .down-div-in .down-nav-rittt {
