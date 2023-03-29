@@ -393,13 +393,28 @@
 
 @media (max-width: 480px) {
   .main-section {
+    footer {
+      height: 10%;
+      .footer-b {
+        .b-nav-left {
+          h2 {
+            font-size: 17px;
+            padding-left: 20px;
+          }
+        }
+      }
+      .footer-a {
+        .p-center {
+          font-size: 15px;
+        }
+      }
+    }
     .down-div-in {
       height: 60%;
       flex-direction: column;
       //
-      footer {
-        height: 10%;
-      }
+
+      //
       .down-nav-rittt {
         flex-direction: row;
         height: 20%;
@@ -461,17 +476,19 @@
       }
     }
     .up-div-in {
-      height: 30%;
+      height: 35%;
       .up-in-right {
+        padding-top: 25px;
         .right {
+          justify-content: left;
           .royal {
-            font-size: 20px;
+            font-size: 23px;
           }
           .luxury {
-            font-size: 20px;
+            font-size: 24px;
           }
           .p-royal {
-            font-size: 13px;
+            font-size: 16px;
           }
         }
       }

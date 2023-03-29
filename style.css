@@ -381,12 +381,19 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .main-section footer {
+    height: 10%;
+  }
+  .main-section footer .footer-b .b-nav-left h2 {
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  .main-section footer .footer-a .p-center {
+    font-size: 15px;
+  }
   .main-section .down-div-in {
     height: 60%;
     flex-direction: column;
-  }
-  .main-section .down-div-in footer {
-    height: 10%;
   }
   .main-section .down-div-in .down-nav-rittt {
     flex-direction: row;
@@ -438,15 +445,21 @@ body {
     padding: 15px;
   }
   .main-section .up-div-in {
-    height: 30%;
+    height: 35%;
+  }
+  .main-section .up-div-in .up-in-right {
+    padding-top: 25px;
+  }
+  .main-section .up-div-in .up-in-right .right {
+    justify-content: left;
   }
   .main-section .up-div-in .up-in-right .right .royal {
-    font-size: 20px;
+    font-size: 23px;
   }
   .main-section .up-div-in .up-in-right .right .luxury {
-    font-size: 20px;
+    font-size: 24px;
   }
   .main-section .up-div-in .up-in-right .right .p-royal {
-    font-size: 13px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
