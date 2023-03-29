@@ -3,6 +3,7 @@
   height: 95%;
   background: $main-color;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   .main-div-in {
     width: 100%;
     display: flex;
@@ -405,6 +406,7 @@
       }
       .down-nav {
         .down-nav-n-left-down {
+          padding-left: 10px;
           form {
             gap: 10px;
             .form-div {
