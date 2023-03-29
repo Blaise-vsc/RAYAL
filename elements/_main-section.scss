@@ -399,6 +399,7 @@
     footer {
       height: 10%;
       position: absolute;
+      padding-right: 10px;
       .footer-b {
         .b-nav-left {
           h2 {
@@ -426,13 +427,15 @@
       .down-nav {
         .down-nav-n-left-down {
           padding-left: 10px;
+          padding-top: 20px;
           form {
+            padding-left: 2rem;
             gap: 10px;
             .form-div {
               gap: 1px;
               .checkbox {
                 label {
-                  font-size: 10px;
+                  font-size: 12px;
                   // color: $paper-color;
                 }
               }

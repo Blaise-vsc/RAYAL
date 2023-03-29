@@ -383,6 +383,7 @@ body {
   .main-section footer {
     height: 10%;
     position: absolute;
+    padding-right: 10px;
   }
   .main-section footer .footer-b .b-nav-left h2 {
     font-size: 17px;
@@ -405,15 +406,17 @@ body {
   }
   .main-section .down-div-in .down-nav .down-nav-n-left-down {
     padding-left: 10px;
+    padding-top: 20px;
   }
   .main-section .down-div-in .down-nav .down-nav-n-left-down form {
+    padding-left: 2rem;
     gap: 10px;
   }
   .main-section .down-div-in .down-nav .down-nav-n-left-down form .form-div {
     gap: 1px;
   }
   .main-section .down-div-in .down-nav .down-nav-n-left-down form .form-div .checkbox label {
-    font-size: 10px;
+    font-size: 12px;
   }
   .main-section .down-div-in .down-nav .about {
     padding-left: 1rem;
