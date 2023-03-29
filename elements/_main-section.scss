@@ -413,6 +413,7 @@
     }
     .down-div-in {
       height: 60%;
+      z-index: -1;
       flex-direction: column;
       //
 
@@ -474,6 +475,7 @@
     //
     .main-div-in {
       .up-in-right {
+        z-index: -1;
         padding: 15px;
       }
     }
