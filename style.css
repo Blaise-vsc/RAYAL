@@ -381,9 +381,6 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .main-section .down-div-in {
-    background: none;
-  }
   .main-section footer {
     height: 10%;
     position: none;
@@ -396,7 +393,7 @@ body {
     font-size: 15px;
   }
   .main-section .down-div-in {
-    height: 60%;
+    height: 70%;
     flex-direction: column;
   }
   .main-section .down-div-in .down-nav-rittt {
@@ -418,11 +415,9 @@ body {
   }
   .main-section .down-div-in .down-nav .down-nav-n-left-down form .form-div .checkbox label {
     font-size: 17px;
-    color: #e8e8e8;
   }
   .main-section .down-div-in .down-nav .about {
     padding-left: 1rem;
-    color: #e8e8e8;
   }
   .main-section .down-div-in .down-nav .about-pad {
     padding-left: 4rem;
