@@ -385,6 +385,7 @@ body {
     height: 10%;
     z-index: 100;
     position: none;
+    background: #0d394e;
   }
   .main-section footer .footer-b .b-nav-left h2 {
     font-size: 17px;
@@ -395,6 +396,7 @@ body {
   }
   .main-section .down-div-in {
     height: 60%;
+    z-index: -1;
     flex-direction: column;
   }
   .main-section .down-div-in .down-nav-rittt {
@@ -444,6 +446,7 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.593);
   }
   .main-section .main-div-in .up-in-right {
+    z-index: -1;
     padding: 15px;
   }
   .main-section .up-div-in {
