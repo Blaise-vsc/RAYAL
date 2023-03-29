@@ -383,6 +383,7 @@ body {
 @media (max-width: 480px) {
   .main-section footer {
     height: 10%;
+    z-index: 100;
     position: none;
   }
   .main-section footer .footer-b .b-nav-left h2 {
