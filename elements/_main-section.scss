@@ -451,8 +451,9 @@
         }
         .down-nav-in {
           height: 100%;
-          justify-content: center;
+          justify-content: start;
           align-items: center;
+          bottom: 15%;
 
           gap: 15px;
         }
@@ -462,13 +463,17 @@
 
         .down-nav-in {
           .in-absolute {
-            .regular {
+            bottom: 0%;
+            p {
               font-size: 15px;
+            }
+            .regular {
+              font-size: 12px;
             }
           }
           .down-img {
             width: 170px;
-            height: 100px;
+            height: 150px;
             position: none;
             bottom: 20%;
             border: 2px solid rgba(0, 0, 0, 0.593);
